@@ -1,0 +1,36 @@
+{
+ "free": [
+  {
+   "day": 0,
+   "subject": "Your 10 Claude Skills (2-minute setup)",
+   "html": "<p>Hey, Levi here. Thanks for grabbing the Starter Vault.</p><p>Quick setup so you actually use it today:</p><p>1. Unzip the download.<br>2. In Claude go to Settings → Capabilities → Skills and upload the zip (or the folder you want).<br>3. Ask for a task in plain words, like \"reply to this email: …\". Claude picks the skill by itself.</p><p>Start with <b>Skill Maker</b>. Describe one task you repeat every week and let it write your first own skill.</p><p>Reply and tell me which task eats most of your week. I read every reply.</p><p>Levi</p>"
+  },
+  {
+   "day": 2,
+   "subject": "The #1 reason a Claude Skill doesn't fire",
+   "html": "<p>Most skills that \"don't work\" have the same problem: the description is a label, not a trigger.</p><p>Bad: <i>Helps with marketing.</i><br>Good: <i>Use when the user asks for hooks, opening lines or first sentences for a post, or says their posts get no reach.</i></p><p>Claude matches the situation and the words people actually say. Write those into the description and the skill loads every time.</p><p>Open any skill from the vault and look at its description. That's the pattern to copy.</p><p>Levi</p>"
+  },
+  {
+   "day": 4,
+   "subject": "What a full pack looks like (Content Engine)",
+   "html": "<p>The free vault covers general work. The packs go deep on one job.</p><p>Example, Content Engine (12 skills): voice profile → hook writer → X thread builder → LinkedIn posts → Threads batch → repurpose anything → 30-day calendar → carousel → reply writer → post audit → bio optimizer.</p><p>The voice profile is the piece people tell me they didn't know they needed. Every other writing skill reads it first, so the output stops sounding like AI.</p><p>There are 9 packs like this: content, email, sales pages, cold outreach, SEO, digital products, faceless video, Claude Code for non-coders, and Claude + n8n.</p><p>Tomorrow I'll send the one link that gets you all of them.</p><p>Levi</p>"
+  },
+  {
+   "day": 6,
+   "subject": "All 108 skills, founder price",
+   "html": "<p>As promised: the All-Access Bundle.</p><p>9 packs, 108 skills, each with a ChatGPT/Gemini prompt version. Bought one by one they cost $291.</p><p><a href=\"https://levitheblue.gumroad.com/l/claude-skills-all-access/FOUNDER\"><b>Get All-Access at the founder price →</b></a></p><p>The founder price is for the first buyers only. After that the bundle goes back to its normal price.</p><p>If you only want one area, every pack is also sold on its own at levitheblue.gumroad.com.</p><p>Levi</p>"
+  }
+ ],
+ "pack": [
+  {
+   "day": 1,
+   "subject": "Get more out of your skill pack",
+   "html": "<p>Thanks for buying, Levi here.</p><p>One tip that doubles the quality of every skill in your pack: paste one great past example of the result inside the skill file and add the line <i>\"match this quality and length\"</i>.</p><p>A skill without an example is a guess. With one, it copies your standard.</p><p>Levi</p>"
+  },
+  {
+   "day": 3,
+   "subject": "Your upgrade to all 9 packs",
+   "html": "<p>You have one pack. There are 8 more: content, email, sales pages, cold outreach, SEO, digital products, faceless video, Claude Code and n8n.</p><p>The All-Access Bundle has all 108 skills, and the founder price is still on: <a href=\"https://levitheblue.gumroad.com/l/claude-skills-all-access/FOUNDER\"><b>upgrade here →</b></a></p><p>Levi</p>"
+  }
+ ]
+}

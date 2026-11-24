@@ -39,8 +39,48 @@ CREATE = """mutation($input: CreatePostInput!) { createPost(input: $input) {
   ... on MutationError { message } } }"""
 
 
+LIMIT = {"threads": 500, "bluesky": 300, "linkedin": 3000, "twitter": 25000}
+
+
 def fill(text, q):
-    return text.replace("{vault}", q["vault"]).replace("{bundle}", q["bundle"]).replace("{repo}", q["repo"])
+    for k in ("vault", "bundle", "repo", "slop"):
+        text = text.replace("{%s}" % k, q.get(k, ""))
+    return text
+
+
+def render(item, q, service):
+    """X gets the comment-a-word CTA (DMs are sent by hand). Other platforms get the direct link."""
+    t = item["t"]
+    if item.get("cta"):
+        t += "\n\n" + (q["cta_x"] if service == "twitter" else q["cta_link"])[item["cta"]]
+    return fill(t, q)
+
+
+def chunks(text, limit):
+    """Split a long post on paragraph breaks into thread parts that fit the platform limit."""
+    out, cur = [], ""
+    for para in text.split("\n\n"):
+        while len(para) > limit:  # a single huge paragraph: cut on lines
+            cut = para.rfind("\n", 0, limit) if "\n" in para[:limit] else limit
+            out.append(para[:cut].strip()); para = para[cut:].strip()
+        if len(cur) + len(para) + 2 <= limit:
+            cur = (cur + "\n\n" + para) if cur else para
+        else:
+            out.append(cur); cur = para
+    if cur: out.append(cur)
+    return [c for c in out if c]
+
+
+def build_input(kind, body, c):
+    svc, lim = c["service"], LIMIT.get(c["service"], 3000)
+    inp = {"channelId": c["id"], "schedulingType": "automatic", "mode": "addToQueue"}
+    parts = chunks(body, lim) if kind == "post" else body
+    if kind == "thread" and svc == "linkedin":
+        parts = ["\n\n".join(body)]
+    inp["text"] = parts[0]
+    if len(parts) > 1 and svc in ("twitter", "threads", "bluesky"):
+        inp["metadata"] = {svc: {"thread": [{"text": p} for p in parts]}}
+    return inp
 
 
 def main():
@@ -48,30 +88,24 @@ def main():
         sys.exit("BUFFER_API_KEY secret is missing")
     q = json.load(open("queue.json"))
     st = json.load(open("state.json")) if os.path.exists("state.json") else {"post": 0, "thread": 0, "day": 0}
+    if st.get("v") != 2:  # new queue v2: start from the top
+        st = {"post": 0, "thread": 0, "day": 0, "v": 2}
     chs = channels()
     print("channels:", [(c["service"], c["name"]) for c in chs])
     items = []
     for _ in range(PER_DAY):
         if st["post"] < len(q["posts"]):
-            items.append(("post", fill(q["posts"][st["post"]]["t"], q))); st["post"] += 1
+            items.append(("post", q["posts"][st["post"]])); st["post"] += 1
     if st["day"] % 2 == 0 and st["thread"] < len(q["threads"]):  # a thread every 2nd day
-        items.append(("thread", [fill(t, q) for t in q["threads"][st["thread"]]])); st["thread"] += 1
+        items.append(("thread", q["threads"][st["thread"]])); st["thread"] += 1
     st["day"] += 1
     if not items:
         print("Queue empty - ask Claude for the next batch."); return
-    for kind, body in items:
+    for kind, item in items:
         for c in chs:
-            inp = {"channelId": c["id"], "schedulingType": "automatic", "mode": "addToQueue"}
-            if kind == "post":
-                inp["text"] = body[:280] if c["service"] == "twitter" else body
-            else:
-                inp["text"] = body[0]
-                if c["service"] in ("twitter", "threads", "bluesky"):
-                    inp["metadata"] = {c["service"]: {"thread": [{"text": t} for t in body]}}
-                else:
-                    inp["text"] = "\n\n".join(body)
+            body = render(item, q, c["service"]) if kind == "post" else [fill(t, q) for t in item]
             try:
-                print(kind, c["service"], gql(CREATE, {"input": inp})["createPost"])
+                print(kind, c["service"], gql(CREATE, {"input": build_input(kind, body, c)})["createPost"])
             except Exception as e:
                 print("FAILED", kind, c["service"], e)
     json.dump(st, open("state.json", "w"))

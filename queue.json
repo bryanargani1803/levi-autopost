@@ -1,55 +1,254 @@
 {
-"vault": "levitheblue.gumroad.com/l/claude-skills-free",
-"bundle": "levitheblue.gumroad.com/l/claude-skills-all-access/FOUNDER",
-"repo": "github.com/bryanargani1803/claude-skills",
-"posts": [
-{"t": "Most people use Claude like a search bar.\n\nThe people getting real work out of it use Skills: small saved workflows Claude loads by itself when the task comes up.\n\nSame process every time. No re-typing prompts."},
-{"t": "A Claude Skill is just one markdown file:\n\n- name\n- when to use it\n- what to ask you\n- numbered steps\n- output format\n- rules\n\nThat's it. No code. Install once, use forever."},
-{"t": "I put 6 of my Claude Skills on GitHub, free:\n\n- Anti-AI-slop editor\n- Hook writer\n- n8n workflow planner\n- Cold email writer\n- Headline lab\n- Idea validator\n\n{repo}"},
-{"t": "The #1 reason a Claude Skill doesn't trigger:\n\nThe description is vague.\n\nBad: \"Helps with marketing\"\nGood: \"Use when the user needs opening lines for posts, or says their posts get no reach\"\n\nWrite it like a trigger, not a label."},
-{"t": "Words that instantly make writing sound like AI:\n\ndelve\nelevate\nunlock\ngame-changer\n\"in today's fast-paced world\"\n\"it's not just X, it's Y\"\n\nI made a free Claude Skill that strips all of them out."},
-{"t": "Stop asking Claude to \"write a post\".\n\nAsk it to:\n1. write 15 hooks across 5 formulas\n2. score each one 1-10\n3. give you the top 5 with reasons\n\nYou'll never post a weak opening line again."},
-{"t": "10 free Claude Skills you can install in 2 minutes:\n\nemail replies, meeting notes, summaries, weekly planner, rewriter, research brief, SOP writer, prompt improver, content ideas, and a skill that builds new skills.\n\n{vault}"},
-{"t": "Numbered steps beat paragraphs.\n\nWhen you write a prompt or a Claude Skill as 1, 2, 3, 4, Claude follows it in order. When you write a paragraph, it improvises.\n\nSmall change, very different output."},
-{"t": "One line I add to every Claude Skill:\n\n\"If inputs are missing, ask at most 3 short questions, then proceed with sensible defaults and state them.\"\n\nKills the endless back-and-forth."},
-{"t": "You don't need to code to automate your business anymore.\n\nDescribe the automation to Claude.\nIt plans the n8n workflow node by node.\nIt writes the importable JSON.\nIt fixes the error when something breaks."},
-{"t": "Claude Skills work in 3 places:\n\n- Claude app: upload the zip in Settings > Capabilities\n- Claude Code: drop the folder in ~/.claude/skills\n- ChatGPT/Gemini: paste the steps into a Custom GPT or Gem"},
-{"t": "Cold email rule Claude follows for me:\n\n- first line is about THEM\n- one-sentence offer\n- one proof point\n- end with a question, not \"book a call\"\n- under 100 words\n- no links in email #1\n\nReply rates go up. Every time."},
-{"t": "Prompt libraries: 500 prompts you copy, paste and forget.\n\nSkills: 12 workers you install once and Claude uses automatically.\n\nI switched and never went back."},
-{"t": "I built 108 Claude Skills for solo business work: content, video scripts, products, sales pages, email, outreach, SEO, building tools, n8n.\n\nFirst 25 get the whole library at founder price:\n{bundle}"},
-{"t": "Before you build a digital product, make Claude run this:\n\n- painful problem?\n- people already paying?\n- can you reach them?\n- clear format?\n- can you ship in 2 weeks?\n\nThen 3 risks + a 48-hour test for each. Go / tweak / drop."},
-{"t": "Your bio is a landing page.\n\nwho you help + the result + proof + one call to action.\n\nThat's the whole formula. Claude can write 5 versions in 10 seconds."},
-{"t": "Faceless video workflow with Claude:\n\n1. hook bank (first 3 seconds)\n2. 30-60s script with timing\n3. shot list\n4. AI b-roll prompts\n5. captions + on-screen text\n\nYou just assemble and post."},
-{"t": "Free: the exact SKILL.md format I use, plus 10 ready-made skills and a setup PDF.\n\n{vault}"},
-{"t": "Hot take: the best AI users write less, not more.\n\nThey write the process once as a skill, and then just say \"do the thing\"."},
-{"t": "Ask Claude for feedback like this:\n\n\"3 strengths, 3 biggest weaknesses, and the single most important fix.\"\n\nYou get something you can act on instead of polite praise."},
-{"t": "Sales page fix that takes 5 minutes:\n\nHave Claude score your page 1-10 on headline, clarity, proof, offer, objections and call to action.\n\nThen fix only the lowest score."},
-{"t": "Claude Code isn't just for developers.\n\nNon-coders are using it to build landing pages, calculators, Chrome extensions and small automations from plain-English descriptions.\n\nThe trick is writing a clear spec first."},
-{"t": "Email sequence for people who download your freebie:\n\nDay 0: quick win\nDay 1: case study\nDay 2: ask for a rating\nDay 3: bundle math\nDay 5: answer objections\nDay 7: deadline\n\nClaude writes all 6 in one go."},
-{"t": "Every \"I'll write a prompt for that later\" is a skill you haven't installed yet.\n\n6 free ones here: {repo}"},
-{"t": "Repurposing with Claude:\n\n1 long video ->\n1 thread\n5 short posts\n1 LinkedIn post\n3 carousels\n3 short-video scripts\n\nOne input, a week of content."},
-{"t": "If your AI writing sounds like AI, it's not the model. It's your instructions.\n\nTell it what to avoid. Give it your voice samples. Make it vary sentence length.\n\nOr install a skill that does it every time."},
-{"t": "SEO workflow I run with Claude:\n\nkeyword clusters -> content brief -> outline -> article -> on-page check -> meta + FAQ schema -> internal links\n\nEach step is its own skill."},
-{"t": "All-Access: 9 Claude Skill Packs, 108 skills, every future pack free.\n\nFounder price for the first 25 buyers:\n{bundle}"},
-{"t": "The best Claude Skill I use daily is the boring one: meeting notes -> decisions -> action items with owners and dates.\n\nFree in the starter vault: {vault}"},
-{"t": "How to make Claude write in YOUR voice:\n\n1. paste 5-10 things you wrote\n2. ask it to list your rhythm, words, opinions, and what you never say\n3. save that as a voice profile\n4. attach it to every writing task"},
-{"t": "Pricing a digital product? Let Claude build the ladder:\n\nfree lead magnet -> $19-29 pack -> $39 deep pack -> bundle at 40-60% off the total.\n\nThe bundle should be the obvious best deal."},
-{"t": "What do you re-type into ChatGPT or Claude every single week?\n\nReply with it. I'll turn the best ones into free skills."},
-{"t": "You can build your first Claude Skill in 20 minutes:\n\n1. pick one repeatable task\n2. write when Claude should use it\n3. list what it needs from you\n4. number the steps\n5. define the output\n\nFree guide + template: {vault}"},
-{"t": "n8n + Claude is the most underrated combo right now.\n\nClaude plans the workflow, writes the JSON, designs the AI agent, and debugs the errors. You just import and connect your accounts."},
-{"t": "Most cold DMs fail in the first line.\n\n\"Hey, I help businesses grow\" = deleted.\n\"Saw your post about X, quick idea on Y\" = read.\n\nMake Claude research the person before it writes a word."},
-{"t": "I open-sourced part of my Claude Skills library. Take them, change them, use them:\n\n{repo}"},
-{"t": "A content calendar that actually works:\n\n4 pillars: teach, prove, opinion, story.\n30% of posts are demos or proof.\n1 promo for every 4 value posts.\n\nClaude builds the 30 days and writes week 1."},
-{"t": "Stop collecting prompts. Start installing workers.\n\n108 Claude Skills, 9 packs, one price:\n{bundle}"},
-{"t": "If Claude keeps giving you generic answers, it doesn't know what \"good\" looks like.\n\nPut the output format in the instructions. Exact sections, exact length. Watch the quality jump."},
-{"t": "My Claude Skills folder is now my most valuable business asset.\n\nEvery repeatable task I do is in there. New task? I write the skill once."},
-{"t": "Free starter kit:\n\n- 10 Claude Skills\n- prompt versions for ChatGPT & Gemini\n- 2-minute setup PDF\n- a skill that writes new skills\n\n{vault}"},
-{"t": "The fastest way to learn what Claude Skills can do: install one, use it 10 times, then open the SKILL.md and change one step.\n\nYou'll understand the whole system in an afternoon."}
-],
-"threads": [
-["I replaced 40 saved prompts with 12 Claude Skills.\n\nHere's how skills work and how to write one in 20 minutes:", "1/ A skill is a folder with one SKILL.md file.\n\nAt the top: a name and a description. The description tells Claude WHEN to use it.", "2/ Write the description like a trigger:\n\n\"Use when the user needs opening lines for posts, threads or emails, or says their posts get no reach.\"\n\nList the actual phrases people type.", "3/ Then the body:\n\n- what to ask the user for\n- numbered steps\n- output format\n- rules (what never to do)", "4/ Numbered steps matter. Claude follows 1-2-3 far more reliably than a paragraph.", "5/ Add this rule to every skill:\n\n\"Ask at most 3 short questions, then proceed with sensible defaults.\"", "6/ Install: Claude app (Settings > Capabilities > upload zip), Claude Code (~/.claude/skills), or paste into ChatGPT/Gemini.", "7/ I put 10 free skills + a setup PDF here:\n\n{vault}"],
-["How to make AI writing not sound like AI (a checklist I gave Claude):", "1/ Ban the tells: delve, elevate, unlock, game-changer, \"in today's fast-paced world\", \"it's not just X, it's Y\".", "2/ Replace every vague claim with a number, a name or an example.", "3/ Vary sentence length. Fragments are fine. Real people write them.", "4/ Contractions. Plain verbs. No \"utilize\".", "5/ Cut anything the reader would skim.", "6/ Never add facts that weren't there.", "7/ I turned this into a free Claude Skill so it runs every time:\n\n{repo}"],
-["Build a Gumroad product with Claude in a weekend. The exact steps:", "1/ Demand: have Claude list 15 product ideas from real complaints in your niche and score them.", "2/ Validate: pain, buyers already paying, reachable audience, clear format, shippable in 2 weeks.", "3/ Offer: one promise, components, bonuses, a value anchor.", "4/ Build: outline, then one chapter or template at a time.", "5/ Price: free lead magnet -> low pack -> deep pack -> bundle.", "6/ Page: headline, bullets, FAQ, one call to action.", "7/ Every step above is a Claude Skill in my Digital Product Creator pack, or all of them in the full library:\n\n{bundle}"],
-["n8n looks scary. With Claude it isn't. How I plan any automation:", "1/ Say the goal as: trigger -> steps -> result.\n\"When someone buys on Gumroad -> add them to my email list -> send a welcome email.\"", "2/ Claude picks the nodes for each step: trigger, apps, logic, AI.", "3/ It flags what needs credentials or a paid plan before you start.", "4/ It writes the workflow JSON. You import it: Workflows > Import from file.", "5/ When it breaks, paste the error. Claude explains it and gives the exact fix.", "6/ The planner skill is free here:\n\n{repo}\n\nThe full n8n pack (12 skills) is in the library."]
-]
+ "vault": "levitheblue.gumroad.com/l/claude-skills-free",
+ "bundle": "levitheblue.gumroad.com/l/claude-skills-all-access/FOUNDER",
+ "slop": "levitheblue.gumroad.com/l/anti-ai-slop",
+ "repo": "github.com/bryanargani1803/claude-skills",
+ "cta_x": {
+  "SKILLS": "Like + repost, then comment \"SKILLS\" and I'll DM you the free vault.\n(Follow me so the DM goes through.)",
+  "108": "Like + repost, then comment \"108\" and I'll DM you the link with the founder price.\n(Follow me so the DM goes through.)",
+  "SLOP": "Like + repost, then comment \"SLOP\" and I'll DM it to you free.\n(Follow me so the DM goes through.)"
+ },
+ "cta_link": {
+  "SKILLS": "Free here: {vault}",
+  "108": "Founder price here: {bundle}",
+  "SLOP": "Free here: {slop}"
+ },
+ "posts": [
+  {
+   "cta": "SKILLS",
+   "t": "You're cooked in 2026 if you still open Claude and type the same prompt you typed yesterday.\n\nThe people getting 10x more out of it stopped prompting.\n\nThey write the process down once, as a Skill, and Claude runs it by itself every time the task shows up:\n\n› the email reply that sounds like them\n› the meeting notes in their format\n› the weekly plan\n› the research brief\n› the post that doesn't read like AI\n\nOne markdown file each. No code. 2 minutes to install.\n\nI packaged 10 of mine into a free Starter Vault."
+  },
+  {
+   "cta": null,
+   "t": "A Claude Skill is one markdown file with 6 parts:\n\n1. name\n2. description (when Claude should use it)\n3. what to ask you first\n4. the steps, numbered\n5. the output format\n6. the rules (what never to do)\n\nGet #2 right and Claude loads it on its own. Get it wrong and it never fires.\n\nSave this."
+  },
+  {
+   "cta": null,
+   "t": "Prompt = you remember the process.\nSkill = Claude remembers the process.\n\nThat's the whole difference. And it's why one is a habit and the other is a system."
+  },
+  {
+   "cta": "108",
+   "t": "I spent 3 weeks writing 108 Claude Skills that do the boring half of running an online business.\n\nNot \"prompts\". Full workflows Claude follows step by step:\n\n› Content: hooks, threads, LinkedIn, 30-day calendar\n› Email: welcome sequence, launches, free-to-paid\n› Sales: Gumroad page, objections, 7-day launch\n› Outreach: cold email, follow-ups, DMs\n› SEO: keyword clusters, briefs, full articles\n› Products: demand finder, validator, ebook outliner\n› Video: faceless scripts, storyboards, captions\n› Claude Code + n8n: tools and automations for non-coders\n\nEach one comes with a ChatGPT/Gemini prompt version too.\n\nFounder price is live for the first buyers."
+  },
+  {
+   "cta": null,
+   "t": "The #1 reason a Claude Skill never triggers: the description is a label, not a trigger.\n\nBad:\n\"Helps with marketing.\"\n\nGood:\n\"Use when the user asks for opening lines, hooks or first sentences for a post, or says their posts get no reach.\"\n\nWrite the situations and the exact words people say. Claude matches on those."
+  },
+  {
+   "cta": null,
+   "t": "Stop asking Claude to \"write a post.\"\n\nAsk it to:\n1. write 15 hooks across 5 formulas\n2. score each one 1-10 for curiosity and clarity\n3. show the top 3 with the reason they win\n\nSame 30 seconds. You never post a weak first line again."
+  },
+  {
+   "cta": "SLOP",
+   "t": "Words that make people stop reading because they smell AI:\n\ndelve\nelevate\nunlock\nseamless\ngame-changer\n\"in today's fast-paced world\"\n\"it's not just X, it's Y\"\n\"let's dive in\"\nthree-item lists in every sentence\nan em dash every other line\n\nI made a free Claude Skill that finds and rewrites all of them before you hit post."
+  },
+  {
+   "cta": null,
+   "t": "Claude Skills break in a predictable order:\n\n1. Description too vague → never loads\n2. No \"ask first\" step → guesses your context\n3. Steps written as paragraphs → skips half\n4. No output format → different shape every time\n5. No examples → generic tone\n6. No \"never do\" rules → AI-sounding filler\n7. Too many jobs in one skill → does none well\n8. No voice file → doesn't sound like you\n\nFix them in that order. Bookmark it."
+  },
+  {
+   "cta": null,
+   "t": "The best Claude users I know have the most boring setup:\n\na folder of 20-30 small skills that each do one job well.\n\nNot one giant \"do everything\" prompt."
+  },
+  {
+   "cta": "SKILLS",
+   "t": "If I had to get 10 hours a week back with Claude, starting tonight, here's exactly what I'd do:\n\n1. List every task I did twice this week\n2. Pick the 3 that take the longest\n3. Write each one as a Skill: ask first → steps → output format → rules\n4. Add one example of a great past result to each\n5. Run it on real work, fix the rule that broke\n6. Repeat with the next 3 next week\n\nBy week 4 Claude runs the busywork the same way every time.\n\nI already wrote the first 10 for you (email replies, meeting notes, weekly plan, research briefs, rewrites and more). Free."
+  },
+  {
+   "cta": null,
+   "t": "How to make Claude sound like you (2 steps):\n\n1. Paste 5 things you wrote and liked. Ask: \"Describe my voice in 10 rules: sentence length, words I use, words I never use, how I open, how I close.\"\n\n2. Save those 10 rules as a voice profile and tell every writing skill to read it first.\n\nThat's the whole trick. Most people skip step 2."
+  },
+  {
+   "cta": null,
+   "t": "Claude doesn't need a better prompt from you.\n\nIt needs your process, written down once."
+  },
+  {
+   "cta": "108",
+   "t": "Claude Skills are honestly the most underrated AI feature of 2026, by far.\n\n› You write a workflow once\n› Claude picks it up by itself when the task comes up\n› Works in the Claude app, Claude Code and the API\n› It's a plain text file you own, not a paid tool\n\nMost people still don't know the button exists.\n\nI built 108 of them for creators and solo businesses: content, email, sales pages, outreach, SEO, digital products, faceless video, n8n and Claude Code."
+  },
+  {
+   "cta": null,
+   "t": "The 5 Claude Skills I'd install first if I ran a one-person business:\n\n1. Email reply in my voice\n2. Meeting/call notes → action list\n3. Weekly plan from a brain dump\n4. Research brief on any topic in 10 minutes\n5. \"Make this clear\" rewrite for anything I send\n\nNone of them are exciting. All of them run every day."
+  },
+  {
+   "cta": null,
+   "t": "A Skill without an example is a guess.\n\nPaste one great past result inside the skill and write \"match this quality and length.\"\n\nThe difference is bigger than any model upgrade."
+  },
+  {
+   "cta": "SKILLS",
+   "t": "You can build your own AI assistant with one folder of text files and nobody talks about how simple it is.\n\nNo agents. No code. No subscriptions on top of Claude.\n\n› skill 1 answers your emails in your voice\n› skill 2 turns call notes into tasks\n› skill 3 plans your week\n› skill 4 writes research briefs\n› skill 5 rewrites anything to be clear\n\nClaude reads the folder and picks the right one for the task.\n\nHere are my first 10, free."
+  },
+  {
+   "cta": null,
+   "t": "Copy this into any Claude Skill and the output instantly gets better:\n\n## Rules\n- Ask before assuming anything about my audience or goal\n- Short sentences. One idea per line.\n- No words: delve, elevate, unlock, seamless, leverage\n- No intro, no summary at the end\n- If something is missing, say so instead of making it up"
+  },
+  {
+   "cta": null,
+   "t": "Most \"AI is useless\" takes come from people who never gave it the context a new hire would get on day one."
+  },
+  {
+   "cta": "108",
+   "t": "If I had to start selling a digital product this week, with no audience and only Claude, here's the exact order:\n\n1. Find the demand: 20 complaints people already post (Reddit, X, reviews)\n2. Validate: does one product fix 3 of them?\n3. Build the offer: outcome, bonuses, price anchor\n4. Outline and write it in chapters, not one giant prompt\n5. Gumroad page: headline, bullets, FAQ that kills objections\n6. 7-day launch: one post a day, one email a day\n7. Upsell: checkout add-on and a bundle\n\nEvery step above is a Claude Skill in my bundle (108 total)."
+  },
+  {
+   "cta": null,
+   "t": "The hook formula that works on every platform:\n\n[number or name] + [surprising claim] in under 15 words.\nThen one short line.\nThen white space.\nThen a list.\n\nLook at the posts you saved this month. Almost all of them follow it."
+  },
+  {
+   "cta": null,
+   "t": "Reply under bigger accounts with something they'd want to retweet.\n\nThat's the whole cold-start growth strategy for 0 followers. Everything else is optimization."
+  },
+  {
+   "cta": "SKILLS",
+   "t": "I tested every way to \"save prompts\" for Claude:\n\n› notes app → forget to open it\n› text expander → still edit every time\n› Projects → good, but stuck in one chat\n› custom instructions → too general\n\nSkills won.\n\nClaude loads the right one on its own, follows the same steps every time and asks you the questions you'd forget.\n\nStart with my 10 free ones."
+  },
+  {
+   "cta": null,
+   "t": "The research-brief skill I use before writing anything:\n\n1. Ask me: topic, who it's for, what decision it should help with\n2. List what's known, what's debated, what's changed this year\n3. 5 facts with sources I can check\n4. 3 angles nobody is talking about\n5. One paragraph: \"if you read nothing else\"\n\n10 minutes instead of 2 hours of tabs."
+  },
+  {
+   "cta": null,
+   "t": "\"Write me a blog post\" gets you a blog post.\n\n\"Here are my steps for a blog post\" gets you YOUR blog post."
+  },
+  {
+   "cta": "SLOP",
+   "t": "Run any AI-written post through this checklist. Most fail at least 4:\n\n1. Opens with \"In today's world…\"\n2. Uses \"delve\", \"unlock\" or \"elevate\"\n3. \"It's not just X, it's Y\"\n4. Three adjectives in a row\n5. Ends with a question nobody will answer\n6. Every paragraph the same length\n7. No specific number, name or example\n\nI made a free Claude Skill that fixes all 7."
+  },
+  {
+   "cta": null,
+   "t": "How to make Claude write a 30-day content calendar you'll actually use:\n\n1. Give it 3 content pillars (what you know, what you sell, what you believe)\n2. Ask for 4 formats: list, story, how-to, opinion\n3. Pillars × formats = 12 ideas, repeat with new angles\n4. Ask for the hook only, not the full post\n5. Write the post the day you publish it\n\nPlanning the hooks is 80% of the work."
+  },
+  {
+   "cta": null,
+   "t": "If your prompt is longer than 3 paragraphs and you use it more than once, it should be a Skill."
+  },
+  {
+   "cta": "108",
+   "t": "The full stack of Claude Skills I'd want if I sold anything online:\n\nContent Engine: 12\nEmail Marketing: 12\nSales Page & Launch: 12\nCold Outreach: 12\nSEO Blog Writer: 12\nDigital Product Creator: 12\nFaceless Video: 12\nClaude Code for Non-Coders: 12\nClaude + n8n Automations: 12\n\n108 skills. Each with a ChatGPT/Gemini prompt version.\n\nAll 9 packs in one bundle, founder price for the first buyers."
+  },
+  {
+   "cta": null,
+   "t": "Cold email that gets replies, as a Claude Skill:\n\n1. Ask me: who they are, one specific thing about them, what I offer\n2. First line: about them, not me\n3. One sentence problem, one sentence result\n4. Ask for a 1-word reply, not a call\n5. Under 80 words\n6. Never: \"I hope this finds you well\"\n\nSave it as a skill once, run it on every lead."
+  },
+  {
+   "cta": null,
+   "t": "The reason your AI posts get no reach isn't the algorithm.\n\nIt's that they sound like everyone else's AI posts."
+  },
+  {
+   "cta": "SKILLS",
+   "t": "Things Claude can do every day without you re-explaining anything (once you set up Skills):\n\n› reply to emails in your tone\n› turn a messy call into 5 action items\n› build next week's plan from a brain dump\n› write a research brief with sources\n› rewrite anything so a 12-year-old gets it\n› give you 30 content ideas from one topic\n› turn any rough prompt into a strong one\n› make a new skill from a task you describe\n\nThe last one builds the rest.\n\nAll 8 (plus 2 more) are in my free Starter Vault."
+  },
+  {
+   "cta": null,
+   "t": "The skill that builds other skills (use it first):\n\n\"I'll describe a task I repeat. Ask me 5 questions about it. Then write a SKILL.md with: name, a description listing the exact phrases that should trigger it, ask-first questions, numbered steps, output format and 5 'never do' rules.\"\n\nRun it on your 3 most repeated tasks today."
+  },
+  {
+   "cta": null,
+   "t": "2024: learn prompting.\n2025: learn agents.\n2026: write your process down once and let Claude run it."
+  },
+  {
+   "cta": "108",
+   "t": "You can run the marketing side of a one-person business with 9 folders of Claude Skills and nobody talks about it.\n\n› Monday: content calendar skill → 7 hooks\n› Tuesday: thread + LinkedIn skills → posts done\n› Wednesday: newsletter skill → email out\n› Thursday: cold email skill → 20 leads\n› Friday: SEO skill → 1 article\n› Weekend: product skills → next offer outlined\n\nThe work doesn't disappear. The blank page does.\n\nI built all 108 of these skills. One bundle."
+  },
+  {
+   "cta": null,
+   "t": "How to make Claude write an email welcome sequence in 10 minutes:\n\nEmail 1: deliver what they signed up for + one quick win\nEmail 2: your story in 5 lines, why you made this\nEmail 3: the most common mistake in your niche\nEmail 4: a case or example, with numbers\nEmail 5: the offer, one link, a deadline\n\nAsk Claude for one email at a time. Never all 5 at once."
+  },
+  {
+   "cta": null,
+   "t": "Claude Code isn't only for developers.\n\nNon-coders use it to build landing pages, Chrome extensions, small tools and automations, by describing what they want in plain English."
+  },
+  {
+   "cta": "SKILLS",
+   "t": "If I was starting with Claude from zero today, I'd skip every course and do this in one evening:\n\n1. Install 10 ready-made Skills\n2. Use each one once on real work\n3. Open the file and read how it's written\n4. Change one rule so it fits you\n5. Use the \"skill maker\" to write your first own skill\n\nYou learn faster from 10 working examples than from 10 hours of video.\n\nMy 10 are free."
+  },
+  {
+   "cta": null,
+   "t": "A Gumroad sales page structure Claude can fill in for any product:\n\n1. Headline: the result + the time it takes\n2. Who it's for (and who it isn't)\n3. What's inside, as outcome bullets\n4. Why it works / what's different\n5. Bonuses\n6. FAQ that answers the 5 objections\n7. Price + one reason to buy today\n\nFeed it your product notes. Edit the headline yourself."
+  },
+  {
+   "cta": null,
+   "t": "Give Claude your process and it gets better every month as the models get better.\n\nGive it random prompts and you start from zero every time."
+  },
+  {
+   "cta": "108",
+   "t": "I put every Claude Skill I built into one place:\n\n108 skills. 9 packs. One bundle.\n\n› What you get: 108 SKILL.md files + ChatGPT/Gemini prompt versions\n› Install: drag the folder into Claude, 2 minutes\n› Works with: Claude app, Claude Code, API\n› Who it's for: creators, freelancers, solo founders, anyone selling online\n\nFounder price for the first buyers, then it goes up."
+  },
+  {
+   "cta": null,
+   "t": "Free Claude Skills worth installing today:\n\n› anti-AI-slop editor\n› hook writer\n› n8n workflow planner\n› cold email writer\n› headline lab\n› idea validator\n\nAll open on my GitHub: {repo}"
+  },
+  {
+   "cta": null,
+   "t": "The skill is the asset. The prompt was just the draft."
+  }
+ ],
+ "threads": [
+  [
+   "How to build your first Claude Skill in 20 minutes (no code):",
+   "1/ Pick a task you did twice this week. Writing a reply, summarising a call, planning a post. Small and boring is perfect.",
+   "2/ Open a new file called SKILL.md. At the top write a name and a description. The description is the trigger: list the situations and the exact words someone would say.",
+   "3/ Add an 'Ask first' section: the 3 questions Claude should ask before starting. This is what stops generic output.",
+   "4/ Write the steps as a numbered list. One action per line. If a step needs judgment, add the rule for it.",
+   "5/ Add the output format. Headings, length, bullet or prose. Claude copies the shape you give it.",
+   "6/ Add 'Never' rules: words to avoid, things not to assume, what to do when info is missing.",
+   "7/ Paste one great past example and write 'match this quality'.",
+   "8/ Zip the folder and upload it in Claude settings → Skills. Done.",
+   "If you want 10 finished examples to copy from, they're free here: {vault}"
+  ],
+  [
+   "10 Claude Skills every creator should have (steal the structure):",
+   "1/ Voice profile: 10 rules that describe how you write. Every other skill reads it first.",
+   "2/ Hook writer: 15 hooks across 5 formulas, scored, top 3 explained.",
+   "3/ Thread builder: one idea → 8 posts, each one standalone.",
+   "4/ Repurposer: one long post → LinkedIn, Threads, X and a newsletter.",
+   "5/ 30-day calendar: pillars × formats, hooks only.",
+   "6/ Reply writer: replies to big accounts that add something, not 'great post'.",
+   "7/ Carousel writer: 8 slides, one idea per slide.",
+   "8/ Post audit: why a post flopped and the one thing to change.",
+   "9/ Bio optimizer: who you help, with what, and proof.",
+   "10/ Anti-slop editor: strips AI tells before you post.",
+   "The full Content Engine pack (12 skills) is in the bundle: {bundle}"
+  ],
+  [
+   "I read through the most saved AI posts on X this month. 7 patterns they all share:",
+   "1/ Line one has a number or a name in it.",
+   "2/ Line two is one short sentence. Then white space.",
+   "3/ The body is a list, not paragraphs.",
+   "4/ Every item is specific enough to act on today.",
+   "5/ No links in the post itself. Links go in the reply.",
+   "6/ No hashtags.",
+   "7/ It's complete. You could save it and never come back, and that's exactly why people save it.",
+   "I turned these into a hook-writer skill. Free on GitHub: {repo}"
+  ],
+  [
+   "How to use Claude + n8n to automate the boring parts of your business (no code):",
+   "1/ Describe the workflow in plain English: trigger, steps, where data ends up.",
+   "2/ Ask Claude to turn it into n8n nodes, in order, with what each node needs.",
+   "3/ Ask for the workflow JSON. Paste it into n8n. It imports as a full flow.",
+   "4/ Add your API keys inside n8n (never paste them into the chat).",
+   "5/ When it errors, paste the error and the node into Claude. Ask for the fix, not an explanation.",
+   "6/ Ideas to start: new sale → spreadsheet + email, new lead → research brief, new video → posts.",
+   "The 12 Claude + n8n skills I use are in the bundle: {bundle}"
+  ],
+  [
+   "Claude Skills vs Projects vs custom instructions. When to use which:",
+   "1/ Custom instructions: who you are and how you like answers. Applies to everything. Keep it short.",
+   "2/ Projects: a shared folder of files for one piece of work. Great for context, stuck in that project.",
+   "3/ Skills: a process. Claude loads it in any chat, only when the task matches.",
+   "4/ Rule of thumb: facts about you → instructions. Files about a project → Project. Steps you repeat → Skill.",
+   "5/ Most people put processes in instructions. That's why their outputs drift.",
+   "Starter set of 10 skills, free: {vault}"
+  ],
+  [
+   "The free-to-paid funnel I'd build with Claude in a weekend:",
+   "1/ Free product that solves one small problem completely.",
+   "2/ Delivery email with one quick win in the first 3 lines.",
+   "3/ 4 emails over 7 days: story, mistake, example, offer.",
+   "4/ The paid product picks up exactly where the free one stops.",
+   "5/ Checkout add-on under $20 and a bundle as the upgrade.",
+   "6/ Every post on social points to the free product, not the paid one.",
+   "Every step is a skill in my Email Marketing and Sales Page packs: {bundle}"
+  ]
+ ]
 }

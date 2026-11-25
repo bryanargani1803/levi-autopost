@@ -6,7 +6,7 @@ import json, os, sys, urllib.request
 
 API = "https://api.buffer.com"
 KEY = os.environ.get("BUFFER_API_KEY")
-PER_DAY = int(os.environ.get("POSTS_PER_DAY", "3"))
+PER_DAY = int(os.environ.get("POSTS_PER_DAY", "2"))
 SERVICES = {"twitter", "threads", "bluesky", "linkedin"}
 
 
@@ -101,6 +101,7 @@ def main():
     st["day"] += 1
     if not items:
         print("Queue empty - ask Claude for the next batch."); return
+    failed = []
     for kind, item in items:
         for c in chs:
             body = render(item, q, c["service"]) if kind == "post" else [fill(t, q) for t in item]
@@ -108,7 +109,19 @@ def main():
                 print(kind, c["service"], gql(CREATE, {"input": build_input(kind, body, c)})["createPost"])
             except Exception as e:
                 print("FAILED", kind, c["service"], e)
+                if c["service"] == "twitter" and "280" in str(e):  # account is not X Premium: send as a thread of short posts
+                    try:
+                        text = body if isinstance(body, str) else "\n\n".join(body)
+                        parts = chunks(text, 270)
+                        inp = {"channelId": c["id"], "schedulingType": "automatic", "mode": "addToQueue", "text": parts[0]}
+                        if len(parts) > 1: inp["metadata"] = {"twitter": {"thread": [{"text": p} for p in parts]}}
+                        print("retry as thread", len(parts), gql(CREATE, {"input": inp})["createPost"]); continue
+                    except Exception as e2:
+                        print("FAILED retry", e2)
+                failed.append((kind, c["service"]))
     json.dump(st, open("state.json", "w"))
+    if failed:
+        sys.exit("Some posts failed (see log): %s" % failed)
 
 
 if __name__ == "__main__":

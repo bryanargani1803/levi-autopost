@@ -14,6 +14,7 @@ jobs:
         env:
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
       - name: Save progress
+        if: always()
         run: |
           git config user.name "autopost"
           git config user.email "autopost@users.noreply.github.com"
